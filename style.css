@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+img {
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+input {
+  margin-top: 15px;
+  width: 400px;
+  display: block;
+  height: 30px;
+  border: 1px solid #000;
+  border-radius: 15px;
+}
+.button {
+  color: #e8eaed;
+  margin-top: 15px;
+  line-height: 30px;
+  min-width: 54px;
+  text-align: center;
+}
+button {
+  cursor: pointer;
+  height: 30px;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: grey;
+}
